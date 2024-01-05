@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0px 0px 0px 0px;
+    font-family: 'Comic Neue';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.Game{
+    height: 500px;
+    width: 400px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 70px;
+}
+.heading{
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0px 20px;
+}
+.MoveButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.Moves{
+    border-radius: 50%;
+    width: 100px;
+    height:100px;
+    margin: 0px 10px 0px 10px;
+    border-color: yellow;
+    border-style: solid;
+    border-width: 5px;
+    background-color: black;
+    font-size: 50px;
+    text-align: center;
+}
+.Moves:hover{
+    opacity:0.8;
+}
+.Moves:active{
+    opacity: 0.5;
+}
+.Winner{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.PlayerComputerMove{
+    font-size: 30px;
+    margin-left: 5px;
+    text-align: center;
+}
+.score_board{
+    font-size: 30px;
+    margin-left: 5px;
+    text-align: center;
+}
+.FunctionalButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ResetButton{
+    width: 180px;
+    height: 60px;
+    background-color: black;
+    color: yellow;
+    border: 5px solid yellow;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Comic Neue';
+    transition:all ;
+}
+.ResetButton:hover{
+    opacity: 0.5;
+}
