@@ -9,7 +9,7 @@ body{
 } 
 .Game{
     height: 550px;
-    width: 400px;
+    width: 380px;
     background-color: #060c21;
     margin-top: 50px;
     position: relative;
@@ -28,10 +28,10 @@ body{
 .Game::after{
     content: '';
     position: absolute;
-    top: -5px;
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
     background: #ffffff;
     z-index: -2;
     filter: blur(50px);
