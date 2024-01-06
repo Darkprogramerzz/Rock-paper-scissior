@@ -13,6 +13,7 @@ body{
     background-color: #060c21;
     margin-top: 50px;
     position: relative;
+    border-radius: 5px;
 }
 .Game::before{
     content: '';
@@ -27,16 +28,17 @@ body{
 .Game::after{
     content: '';
     position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
     background: #ffffff;
     z-index: -2;
     filter: blur(40px);
 }
 .Game::after,.Game::before{
     background: linear-gradient(235deg,#89ff00,#060c21,#00bcd4);
+    border-radius: 10px;
 }
 .heading{
     font-size: 40px;
