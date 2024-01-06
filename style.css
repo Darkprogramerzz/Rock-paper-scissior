@@ -119,3 +119,16 @@ body{
     border-radius: 20px;
     margin-top: 100px;
 }
+@media (min-width:400) {
+    .Game{
+       width: 360px;
+    }
+    .heading{
+        font: 50px;
+    }
+    .Moves{
+        border-radius: 50%;
+        width: 90px;
+        height:90px;
+    }
+}
