@@ -89,7 +89,7 @@ function ResetGame (){
         score.Tie = 0;
 }
 function StartGame (){
-    for(let i=0;i<5;i++){
+    for(let i=0;i<4;i++){
         const show = document.querySelector('.hidden');
         show.classList.remove('hidden');
     }
