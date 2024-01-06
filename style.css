@@ -34,7 +34,7 @@ body{
     bottom: -5px;
     background: #ffffff;
     z-index: -2;
-    filter: blur(40px);
+    filter: blur(50px);
 }
 .Game::after,.Game::before{
     background: linear-gradient(235deg,#89ff00,#060c21,#00bcd4);
