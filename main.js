@@ -83,9 +83,16 @@ function ComputersMove(){
     return computerMove;
 }
 function ResetGame (){
-    score.Wins = 0;
-    score.lost = 0;
-    score.Tie = 0;
-    localStorage.removeItem('score');
-
+        localStorage.removeItem('score');
+        score.Wins = 0;
+        score.lost = 0;
+        score.Tie = 0;
+}
+function StartGame (){
+    for(let i=0;i<5;i++){
+        const show = document.querySelector('.hidden');
+        show.classList.remove('hidden');
+    }
+    const hide = document.querySelector('.StartButton')
+    hide.classList.add('hidden')
 }

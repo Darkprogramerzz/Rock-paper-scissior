@@ -13,17 +13,18 @@
     <div class="Game">
         <p class="heading">Rock Paper Scissors</p>
         <div class="MoveButtons">
-            <button  onclick="PlayGame('👊')" class="Moves">👊</button>
-            <button onclick="PlayGame('🖐')" class="Moves">🖐</button>
-            <button onclick="PlayGame('✌️')" class="Moves">✌️</button>
-        </div>    
+            <button onclick="PlayGame('👊')" class="Moves hidden">👊</button>
+            <button onclick="PlayGame('🖐')" class="Moves hidden" >🖐</button>
+            <button onclick="PlayGame('✌️')" class="Moves hidden">✌️</button>
+            <button onclick="StartGame();" class="StartButton">Start Game</button> 
+        </div>   
         <p class="Winner"></p>
     
         <p class="PlayerComputerMove"></p>
     
-        <p class="score_board"></p>
-        <div class="FunctionalButtons">
-            <button onclick="UpdateScore();ResetGame(); " class="ResetButton">Reset Score</button>
+        <p class="score_board hidden"></p>
+        <div class="FunctionalButtons hidden">
+            <button onclick="ResetGame();UpdateScore();" class="ResetButton">Reset Score</button>
         </div>
     </div>
     <script src="main.js"></script>
