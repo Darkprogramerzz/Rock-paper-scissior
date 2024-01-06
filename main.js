@@ -83,10 +83,13 @@ function ComputersMove(){
     return computerMove;
 }
 function ResetGame (){
-        localStorage.removeItem('score');
-        score.Wins = 0;
-        score.lost = 0;
-        score.Tie = 0;
+    if(score.Wins === 0 && score.lost === 0 && score.Tie ===0){
+        alert("Play the game")
+    }
+    localStorage.removeItem('score');
+    score.Wins = 0;
+    score.lost = 0;
+    score.Tie = 0;
 }
 function StartGame (){
     for(let i=0;i<4;i++){
