@@ -98,3 +98,9 @@ function StartGame (){
     document.querySelector('.heading').style.fontSize = '40px';
     document.querySelector('.heading').style.marginTop = '30px';
 }
+function Back(){
+    for(let a = 0;a > 3;a++){
+    }
+    const Hide = document.querySelector('.Moves');
+    Hide.classList.add('hidden');
+}
