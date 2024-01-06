@@ -93,6 +93,8 @@ function StartGame (){
         const show = document.querySelector('.hidden');
         show.classList.remove('hidden');
     }
-    const hide = document.querySelector('.StartButton')
-    hide.classList.add('hidden')
+    const hide = document.querySelector('.StartButton');
+    hide.classList.add('hidden');
+    document.querySelector('.heading').style.fontSize = '40px';
+    document.querySelector('.heading').style.marginTop = '30px';
 }
